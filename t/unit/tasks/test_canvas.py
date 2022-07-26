@@ -20,7 +20,7 @@ SIG = Signature({
 try:
     from collections.abc import Iterable
 except ImportError:
-    from collections.abc import Iterable
+    from collections import Iterable
 
 
 class test_maybe_unroll_group:
